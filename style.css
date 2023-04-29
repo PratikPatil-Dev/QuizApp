@@ -1,0 +1,86 @@
+body {
+  background-color: #54c3ef;
+}
+
+#hdg {
+  font-size: 58px;
+  font-family: "Caveat Brush", cursive;
+  text-align: center;
+  color: #fad744;
+  text-shadow: 2px 2px 0 black;
+}
+
+#container {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+#quizApp {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fad744;
+  background-color: #2b3252;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+}
+
+#scoreCard {
+  width: 20%;
+  height: 200px;
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 8px;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+}
+
+#scoreText {
+  font-size: 24px;
+}
+
+#scoreNum {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+#quesCard {
+  border-bottom: 1px solid rgba(250, 215, 68, 0.5);
+  padding-bottom: 30px;
+}
+
+.ques,
+.option {
+  color: #fad744;
+}
+
+.ques {
+  padding: 10px;
+}
+
+.ques {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#submit {
+  font-size: 16px;
+  color: #2b3252;
+  background-color: #fad744;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ops {
+  margin: 10px 8px;
+}
