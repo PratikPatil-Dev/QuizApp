@@ -1,7 +1,6 @@
 let ansArr = [];
 $(document).ready(function () {
   $.get("https://5d76bf96515d1a0014085cf9.mockapi.io/quiz", function (data) {
-    console.log(data);
     for (let i = 0, j = 1; i < data.length; i++, j++) {
       let quizQues = `
         <div class="quesCard">
@@ -11,7 +10,6 @@ $(document).ready(function () {
             <div class="ops"></div>`;
 
       let optionsArr = data[i].options;
-      console.log(optionsArr);
 
       for (let k = 0; k < optionsArr.length; k++) {
         let quizOps = `
@@ -50,6 +48,5 @@ function result() {
     }
   }
   $(".res").text(score);
-  console.log(score);
 }
-console.log(ansArr);
+
